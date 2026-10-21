@@ -1,0 +1,24 @@
+# Build artifacts
+build/
+bin/
+*.o
+*.so
+*.a
+
+# Models & binary weights
+models/
+*.bin
+*.safetensors
+
+# Python environment & test dumps
+.venv/
+__pycache__/
+*.pyc
+tests/golden/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+
+.cache/
